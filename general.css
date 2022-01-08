@@ -1,0 +1,171 @@
+body {
+	font-family: GillSans, Calibri, Trebuchet, sans-serif; font-size: 16.5px; background-image: none; background-color: #CCC;
+}
+img {
+	padding: 5px;
+	border: 1px solid rgb(218, 218, 218);
+	%%background-color: #663300;
+}
+img.float-right {
+	margin: 5px 5px 5px 10px; float: right;
+}
+img.float-left {
+	margin: 5px 10px 5px 5px; float: left;
+}
+td {
+	font-family: GillSans, Calibri, Trebuchet, sans-serif; font-size: 18px;
+}
+a:link {
+	color: rgb(0, 104, 139); text-decoration: none;
+}
+a:visited {
+	color: rgb(0, 0, 85); text-decoration: none;
+}
+a:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+#wrapper {
+	border-width: 1px; border-style: solid; border-color: #CCCCCC; margin: 5px auto; width: 800px; text-align: center; position: relative;
+}
+#header-wrap {
+	background: #454545 url(http://www.cs.cityu.edu.hk/~zhenjili/xxx.jpg); margin: 0px; padding: 0px; width: 100%;height:0px; clear: both; float: left;
+}
+#header {
+	width: 100%;
+}
+.headertext {
+	padding: 0px 0px 0px 30px; text-align: left; color: #FFFFFF; letter-spacing: 0px; font-size: 20px; font-weight: bold; text-shadow: silver 1px 1px 1px;
+}
+
+#content-wrap {
+	background: white; margin: 0px; padding: 0px; width: 100%; text-align: justify; clear: both; float: left;
+}
+#content {
+	padding: 5px 20px 5px 30px; text-align: center;
+}
+#content h1 {
+	padding: 0.5em 0px 0px; color: #000000; clear: both; font-size: 1.5em; border-bottom-color: gray; border-bottom-width: 1px; border-bottom-style: solid; text-shadow: silver 1px 1px 1px;
+}
+#content h2 {
+	padding: 0.1em 0px 0px 0.2em; color: #000000; clear: both; font-size: 1.2em; border-bottom-color: gray; border-bottom-width: 1px; border-bottom-style: dashed; text-shadow: silver 1px 1px 1px;
+}
+#content p {
+	padding: 0em 0px 0.1em 0.5em; text-align: justify; line-height: 1.3em;
+}
+#content li {
+	padding-bottom: 1em;
+}
+#content li:hover {
+	background: url("http://www.cs.cityu.edu.hk/~zhenjili/images/fauxalpha.png") center;
+}
+#content a {
+	color: #000000; font-size: 1em; text-decoration: none; border-bottom-color: rgb(102, 102, 204); border-bottom-width: 0px; border-bottom-style: solid;
+}
+#content a:hover {
+	text-decoration: none; border-bottom-color: #000000; border-bottom-width: 1px; border-bottom-style: solid;
+}
+#main {
+	margin: 0px; padding: 0px; width: 100%; text-align: left; float: left;
+}
+
+#main a:link {
+	color: rgb(71,163,255); text-decoration: none;
+}
+
+#main-no-nav {
+	margin: 0px; padding: 0px; width: 98%; float: left;
+}
+.person {
+	padding: 10px; clear: both; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.person::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.person img {
+	border: 0px currentColor; width: auto; height: auto; margin-right: 0pt; float: left;
+}
+.person p {
+	margin-top: 2px; margin-bottom: 2px;
+}
+.person .name {
+	font-size: large;
+}
+.person .advisor {
+	font-style: italic;
+}
+.person .jobtitle {
+	font-style: italic;
+}
+.person .department {
+	color: green;
+}
+.person .interest {
+	font-size: small;
+}
+.project {
+	clear: both; border-top-color: rgb(238, 238, 238); border-top-width: medium; border-top-style: solid; display: block;
+}
+.project::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.project .name {
+	padding: 10px; font-size: large; font-weight: bold;
+}
+.project .members {
+	padding: 5px; color: green;
+}
+.project .abstract {
+	padding: 5px; text-align: justify; font-style: italic;
+}
+.project img {
+	border: 0px currentColor; width: 220px; margin-right: 10pt; float: left;
+}
+.project img {
+	border: 0px currentColor; width: 220px; margin-right: 10pt; float: left;
+}
+#sidebar {
+	margin: 0px; padding: 20px 0px 0px; width: 28%; float: right; text-shadow: #000000 0 0 0;
+}
+#sidebar h1 {
+	font: 1.1em/normal "Trebuchet MS", Tahoma, Sans-serif; margin: 0px; padding: 10px 0px 5px 10px; border-bottom-color: rgb(240, 224, 208); border-bottom-width: 1px; border-bottom-style: solid; font-size-adjust: none; font-stretch: normal;
+}
+.sidebox {
+	background: rgb(255, 238, 221); border: 1px solid rgb(240, 224, 208); padding-left: 5px; margin-bottom: 10px;
+}
+#sidebar ul {
+	padding: 0em 0.5em; line-height: 1.3em; list-style-type: none; list-style-image: none;
+}
+#sidebar li {
+	padding: 0.5em 0em; border-bottom-color: rgb(160, 144, 128); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+#sidebar ul.sidemenu {
+	background: rgb(242, 242, 242); list-style: none; margin: 10px 0px 15px; padding: 0px;
+}
+#sidebar ul.sidemenu li {
+	padding: 0px 10px; text-align: justify;
+}
+#sidebar ul.sidemenu a {
+	padding: 0.3em 0px 0.3em 15px; color: rgb(51, 51, 51); font-weight: normal; text-decoration: none; border-bottom-color: rgb(212, 212, 212); border-bottom-width: 1px; border-bottom-style: dashed; display: block;
+}
+#sidebar ul.sidemenu a.top {
+	border-top-color: rgb(212, 212, 212); border-top-width: 1px; border-top-style: dashed;
+}
+#sidebar ul.sidemenu a:hover {
+	padding: 0.3em 0px 0.3em 10px; color: rgb(30, 136, 188); border-left-color: rgb(30, 136, 188); border-left-width: 5px; border-left-style: solid;
+}
+#footer-wrap {
+	margin: 0px;
+	padding: 0px;
+	width: 800px;
+	height: 0px;
+	text-align: left;
+	clear: both;
+	float: none;
+	background-color: #454545;
+}
+#footer {
+	padding: 0px;
+}
+#footer p {
+	padding: 10px 0px 0px 20px; color: #FFFFFF; line-height: 0.8em; font-size: 0.9em;
+}
